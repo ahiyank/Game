@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient( #4600FF, #000000);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.homepage-container {
+    text-align: center;
+   
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background:#4848FF;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.play-button:hover {
+    background-color: #000D58;
+    transform: scale(1.05);
+}
